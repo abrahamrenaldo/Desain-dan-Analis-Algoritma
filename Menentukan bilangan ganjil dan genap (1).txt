@@ -1,0 +1,17 @@
+Menentukan bilangan ganjil dan genap
+
+Algoritma
+- step 1 Masukan bilangan
+- step 2 Menghitung bilangan = bilangan %2 == 0 merupakan bilangan genap
+ - step 3 menampilkan hasil
+
+Pseudocode
+#menentukanBilanganGanjildanGenap
+Deklarasi: var 
+bil:integer;
+Deskripsi: bil; 
+Read (bil) 
+If (bil%2==0) Then 
+print "Bilangan Genap";
+Else print "Bilangan Ganjil";
+Endif

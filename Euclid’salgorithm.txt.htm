@@ -1,0 +1,18 @@
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><title>Euclid’s algorithm, algoritma untuk menentukan</title></head><body><p dir="ltr">Euclid&#8217;s algorithm, algoritma untuk menentukan nilai pembagian 2 bilangan bulat non-<br>
+negatif terbesar (greatest common divisor of two nonnegative integer) yang dinotasikan<br>
+dengan:</p>
+<p dir="ltr">&#9;gcd(m,n) = gcd(n,m mod n).<br>
+&#9;<br>
+Contoh : menentukan gcd(60,24)</p>
+<p dir="ltr">&#9;gcd(60,24) = gcd(24.12 = gcd(12.0) = 12</p>
+<p dir="ltr">Algoritma = </p>
+<p dir="ltr">- Step 1 Jika n = 0, return nilai m sebagai hasil dan stop. Jika tidak, kembali ke Step 2.<br>
+- Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.<br>
+- Step 3 Masukan nilai n ke m dan nilai r ke n. Kembali ke Step 1.</p>
+<p dir="ltr">Pseudocode =</p>
+<p dir="ltr">While n &#8800; 0 do<br>
+&nbsp;&nbsp; r &#8592; m mod n<br>
+&nbsp;&nbsp; m &#8592; n<br>
+&nbsp;&nbsp; n &#8592; r<br>
+return m</p>
+</body></html>
